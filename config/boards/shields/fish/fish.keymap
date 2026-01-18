@@ -102,16 +102,16 @@
         layer_base {
             bindings = <
                         &kp L       &kp U       &kp F       &kp MINUS           &kp K       &kp W       &kp R       &kp Y       
-&kp Q       &kp E       &mt LGUI I  &mt LALT A  &mt LSHFT O &kp COMMA           &kp G       &mt RSHFT T &mt RALT N  &mt RGUI S  &kp H       &kp P       
+&kp Q       &kp E       &mt LGUI I  &mt LALT A  &mt LSHFT O &kp COMMA           &kp G       &mt LSHFT T &mt LALT N  &mt LGUI S  &kp H       &kp P       
             &kp Z       &kp X       &kp C       &kp V                                       &kp D       &kp M       &kp J       &kp B       
-                                                &lt 1 BSPC  &mt LCTRL RET       &mt RCTRL TAB &lt 2 SPACE 
+                                                &lt 1 BSPC  &mt LCTRL RET       &mt LCTRL TAB &lt 2 SPACE 
             >;
         };
 
         layer_math {
             bindings = <
                         &kp N1      &kp N2      &kp N3      &trans              &kp CARET   &kp LT      &kp EQUAL   &kp GT      
-&kp TILDE   &kp N0      &mt LGUI N4 &mt LALT N5 &mt LSHFT N6 &kp DOT            &kp UNDER   &mt RSHFT PLUS &mt RALT MINUS &mt RGUI STAR &kp FSLH &kp PRCNT 
+&kp TILDE   &kp N0      &mt LGUI N4 &mt LALT N5 &mt LSHFT N6 &kp DOT            &kp UNDER   &mt LSHFT PLUS &mt LALT MINUS &mt LGUI STAR &kp FSLH &kp PRCNT 
             &kp DLLR    &kp N7      &kp N8      &kp N9                                      &kp EXCL    &kp QMARK   &kp COLON   &kp SEMI    
                                                 &none       &trans              &trans      &lt 6 SPACE 
             >;
@@ -129,16 +129,16 @@
         layer_mac_base {
             bindings = <
                         &kp L       &kp U       &kp F       &kp MINUS           &kp K       &kp W       &kp R       &kp Y       
-&kp Q       &kp E       &mt LCTRL I &mt LALT A  &mt LSHFT O &kp COMMA           &kp G       &mt RSHFT T &mt RALT N  &mt RCTRL S &kp H       &kp P       
+&kp Q       &kp E       &mt LCTRL I &mt LALT A  &mt LSHFT O &kp COMMA           &kp G       &mt LSHFT T &mt LALT N  &mt LCTRL S &kp H       &kp P       
             &kp Z       &kp X       &kp C       &kp V                                       &kp D       &kp M       &kp J       &kp B       
-                                                &lt 4 BSPC  &mt LGUI RET        &mt RGUI TAB &lt 5 SPACE 
+                                                &lt 4 BSPC  &mt LGUI RET        &mt LGUI TAB &lt 5 SPACE 
             >;
         };
 
         layer_mac_math {
             bindings = <
                         &kp N1      &kp N2      &kp N3      &trans              &kp CARET   &kp LT      &kp EQUAL   &kp GT      
-&kp TILDE   &kp N0      &mt LCTRL N4 &mt LALT N5 &mt LSHFT N6 &kp DOT           &kp UNDER   &mt RSHFT PLUS &mt RALT MINUS &mt RCTRL STAR &kp FSLH &kp PRCNT 
+&kp TILDE   &kp N0      &mt LCTRL N4 &mt LALT N5 &mt LSHFT N6 &kp DOT           &kp UNDER   &mt LSHFT PLUS &mt LALT MINUS &mt LCTRL STAR &kp FSLH &kp PRCNT 
             &kp DLLR    &kp N7      &kp N8      &kp N9                                      &kp EXCL    &kp QMARK   &kp COLON   &kp SEMI    
                                                 &none       &trans              &trans      &lt 6 SPACE 
             >;
